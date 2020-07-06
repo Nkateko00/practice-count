@@ -15,8 +15,7 @@ function allCount() {
         return total;
     }
     function setIncrementaion(value) {
-        incrementBy = value;
-        //Allows broke people to count in thousands  
+        incrementBy = value; 
     }
     return {
         increment,

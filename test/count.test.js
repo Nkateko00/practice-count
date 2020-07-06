@@ -5,7 +5,7 @@ describe("Increase or Decrease",function(){
         increaseCount.increment();
         increaseCount.increment();
         increaseCount.increment();
-        assert.eqaul(3000000,increaseCount.getTotal());
+        assert.equal(3000000,increaseCount.getTotal());
 
     });
         it("it should be able to decrease",function(){
@@ -18,7 +18,7 @@ describe("Increase or Decrease",function(){
             increaseCount.increment();
             increaseCount.decrement();
             increaseCount.decrement();
-            assert.eqaul(3000000,increaseCount.getTotal());
+            assert.equal(3000000,increaseCount.getTotal());
     
         });
 
@@ -31,5 +31,6 @@ describe("Increase or Decrease",function(){
             increaseCount.increment();
             increaseCount.decrement();
             increaseCount.decrement();
-            assert.eqaul(20,increaseCount.getTotal());
+            assert.equal(20,increaseCount.getTotal());
+});
 });
